@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #001c29;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-bottom: 1px solid #11e2b5;
+}
+#img {
+   padding: 10px;
+   height: 55px;
+   border-radius: 15px;
+}
+#nav > a {
+    text-decoration: none;
+}
+#nav > a > p:hover {
+    text-decoration: none;
+    color: white;
+}
+#nav > a > p{
+    color: #11e2b5;
+    font-size: 17px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000f16;
+    border-bottom: 0.5px solid #11e2b5;
+}
+#left {
+    width: 60%;
+    height: 650px;
+    color: #4ecab0;
+}
+#left > h3 {
+    color: #3a9a88;
+    margin-top: 100px;
+    margin-left: 40px; 
+}
+#left > h1 {
+    font-size: 70px;
+    margin-top: 0px;
+    margin-left: 50px; 
+}
+#left > h2 {
+    font-size: 45px;
+    color: #3a9a88;
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+#left > p {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+#left > button {
+    border: 1px solid  #3a9a88;
+    background-color: #000f16;
+    padding: 20px;
+    color: #3a9a88;
+    margin-top: 40px;
+    margin-left: 320px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+#left > button:hover {
+    background-color: #31423f;
+    cursor: pointer;
+}
+#right {
+    width: 40%;
+    height: 650px;
+}
+#right > img {
+    width: 70%;
+    height: 400px;
+    margin-top: 85px;
+    border-radius: 50%;
+}
+#about {
+    background-color: #000f16;
+}
+#about > h1 {
+    color: #4ecab0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+#about > p {
+    color: #3a9a88;
+    text-align: justify;
+    padding: 10px 70px 40px 70px;
+    font-size: 22px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#tech {
+    background-color: #000f16;
+}
+#tech > h1{
+    color: #4ecab0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+#font {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 35px;
+    padding: 25px 55px 25px 95px;
+}
+#font > div {
+    padding: 22px;
+    border: 2px solid #4ecab0;
+    color: #4ecab0;
+    border-radius: 10px;
+}
+#font > div:hover {
+    background-color: #1c3b35;
+    cursor: pointer;
+}
+
+#projects {
+    background-color: #000f16;
+}
+#projects > h1{
+    color: #4ecab0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+#pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#pro > div {
+    color: #4ecab0;
+}
+#pro > div:hover {
+    background-color: #1c3b35;
+}
+#pro {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    padding: 30px 100px 100px 100px;
+}
+#pro > div > div > img {
+    width: 700px;
+    height: 350px;
+}
+.child {
+    display: flex;
+    padding: 35px;
+}
+.child > div > h2 {
+    text-align: center;
+    padding: 10px;
+}
+.para > p {
+    padding: 50px;
+    font-size: 22px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para > button {
+    
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+#education {
+    background-color: #000f16;
+}
+#education > h2 {
+    color: #4ecab0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+#educat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 45px;
+    gap: 10px;
+}
+#educat > div {
+    border: 1px solid #4ecab0;
+    width: 50%;
+    height: 250px;
+    color: #12bd98;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.edu > h2 {
+    margin-top: 30px;
+    padding: 12px;
+}
+.edu > p {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 17px;
+}
+#contact {
+    background-color: #000f16;
+}
+
+#contact > h2 {
+    color: #4ecab0;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+}
+#con {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 45px;
+    gap: 10px;
+}
+#con > div {
+    border: 1px solid #4ecab0;
+    width: 50%;
+    height: 50px;
+    color: #12bd98;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#con > div > h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+#p > p {
+    text-align: center;
+    
+    padding: 40px;
+    background-color: #000f16;
+    color: #12bd98;
+    font-size: 18px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* media queries */
+
+@media all and (min-width: 320px) and (max-width: 750px) {
+    #nav {
+        width: 1000px;
+        pad: 100px 0px 100px 0px;
+    }
+    #nav > a > p{
+        font-size: 22px;
+    }
+    #nav > img {
+        border-radius: 25px;
+    }
+    #main {
+        width: 1000px;
+        display: flex;
+    }
+    #about {
+        width: 1000px;
+    }
+    #about > p {
+        font-size: 24px;
+    }
+    #tech {
+        width: 1000px;
+    }
+    #projects {
+        width: 1000px;
+    }
+    #pro {
+        display: grid;
+    }
+    .child {
+        display: grid;
+    }
+    .para > p {
+        font-size: 24px;
+    }
+    .para > button {
+        margin-left: 200px;
+    }
+    #education {
+        width: 1000px;
+        display: grid;
+    }
+    #prime {
+        display: none;
+    }
+    #contact {
+        width: 1000px;
+    }
+    #p {
+        width: 1000px;
+    }
+}
